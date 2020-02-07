@@ -3,11 +3,11 @@
 This is just a plain simple bash script that eats a list of OpenVAS tasks (names or UUIDs), together with a list of hosts for each task and then spits a PDF report for each host in the list. 
 It's only purpose is to easily **automate** and **crontab** the generation of reports for more than one task and more than one host, by using lists for both.
 #### Table of contents
-[1. Requirements](#Requirements)
+[1. Requirements](#1-requirements)
 
-[2. Usage](#Usage)
+[2. Usage](#2-usage)
 
-[3. Future improvements](#Future-improvements)
+[3. Future improvements](#3-future-improvements)
 
 ## 1. Requirements
 
