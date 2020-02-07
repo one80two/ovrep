@@ -35,7 +35,7 @@ OMP is XML based. It sends commands formatted in XML and receives XML responses.
 #### a. Options
 ```
 Just a simple script, that auto-generates OpenVAS pdf reports by getting as input a list of task names and a list of hosts.
-Usage: ./ovrep.sh <[-T <task|list_of_tasks> | -F <file]> 
+Usage: ./ovrep.sh <[-T <task|list_of_tasks> | -F <file>]> 
 OPTIONS:
 	-T <task1,task2,...>	Specify the name of the task or the UUID. Multiple tasks should be separated by comma
 	-F <filepath>		Specify a list containing the names or UUID of tasks. Should be separated by an endline
