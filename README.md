@@ -4,12 +4,16 @@ This is just a plain simple bash script that eats a list of OpenVAS tasks (names
 It's only purpose is to easily **automate** and **crontab** the generation of reports for more than one task and more than one host, by using lists for both.
 #### Table of contents
 [1. Requirements](#Requirements)
+
 [2. Usage](#Usage)
+
 [3. Future improvements](#Future-improvements)
+
 ## 1. Requirements
 
 ####  OpenVAS Management Protocol (omp)
 [Link](https://docs.greenbone.net/GSM-Manual/gos-3.1/en/omp.html)
+
 The OpenVAS Management Protocol utility is used for the interaction with the OpenVAS manager. It actually queries for a certain host in the OpenVAS list of findings for the specified task and then generates the PDF reports.
 You need to have configured the connection details in `$(HOME)/omp.config`. For example:
 ```[Connection]
@@ -25,6 +29,7 @@ filter="host=<host> autofp=0 apply_overrides=1 notes=1 overrides=1 result_hosts_
 Currently, there is no option for changing the default filter, but it can be done by modifying the script.
 ####  XMLStarlet
 [Link](http://xmlstar.sourceforge.net/)
+
 OMP is XML based. It sends commands formatted in XML and receives XML responses. XMLStarlet parses the XML response.
 ## 2. Usage
 #### a. Options
