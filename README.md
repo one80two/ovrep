@@ -50,7 +50,8 @@ It expects to find in the current directory a list of hosts with the same name a
 host.example.com
 222.222.222.222
 ```
-
+**Tip**: Even if you give it the task UUID instead of the task name, it still expects the list of hosts as the name of the task, not the UUID.
+`<task-name>.list`
 ## 3. Future improvements
 - add an option to specify the output format
 - add an option to specify other flags
