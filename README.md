@@ -1,6 +1,6 @@
 # OpenVAS Reporter
 
-This is just a plain simple bash script that eats a list of OpenVAS tasks (names or UUIDs), together with a list of hosts and then spits a PDF report for each host in the list. 
+This is just a plain simple bash script that eats a list of OpenVAS tasks (names or UUIDs), together with a list of hosts for each task and then spits a PDF report for each host in the list. 
 It's only purpose is to easily **automate** and **crontab** the generation of reports for more than one task and more than one host, by using lists for both.
 #### Table of contents
 [1. Requirements](#Requirements)
