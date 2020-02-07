@@ -1,6 +1,6 @@
 usage() {
 echo "Just a simple script, that auto-generates OpenVAS pdf reports by getting as input a list of task names and a list of hosts."
-echo "Usage: $0 <[-T <task|list_of_tasks> | -F <file]> " 1>&2;
+echo "Usage: $0 <[-T <task|list_of_tasks> | -F <file>]> " 1>&2;
 echo "OPTIONS:"
 echo "	-T <task1,task2,...>	Specify the name of the task or the UUID. Multiple tasks should be separated by comma"
 echo "	-F <filepath>		Specify a list containing the names or UUID of tasks. Should be separated by an endline"
